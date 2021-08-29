@@ -1,0 +1,5 @@
+(library
+ (public_name "kv_mmap_log")
+ (preprocess (pps ppx_bin_prot))
+ (libraries lwt lwt.unix bin_prot bigstringaf))
+
